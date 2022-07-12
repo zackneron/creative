@@ -2,22 +2,21 @@
   <v-app>
     <HeaderComp />
     <v-main>
-      <v-container>
-        <Nuxt />
-      </v-container>
+      <Nuxt />
     </v-main>
-    <FooterComp />
+    <Footer />
   </v-app>
 </template>
 
 <script>
 import HeaderComp from '@/components/Header-comp'
-import FooterComp from '@/components/FooterCom'
+import Footer from '@/components/FooterCom'
 export default {
-  name: 'DefaultLayout',
-  component: { HeaderComp, FooterComp },
+  name: 'MainPageLayout',
+  component: { HeaderComp, Footer },
   data() {
     return {}
   },
 }
 </script>
+<style scoped></style>
