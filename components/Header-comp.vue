@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar color="white">
+  <v-app-bar color="white" outline class="header">
     <nuxt-link to="/">
       <v-img
         :src="require('~/assets/logo.png')"
@@ -10,7 +10,7 @@
 
     <v-spacer></v-spacer>
 
-    <v-list class="d-none d-sm-flex">
+    <v-list class="d-flex">
       <v-list-item v-for="item in items" :key="item.title" :to="item.to">
         <v-list-item-title class="text-center" v-text="item.title" />
       </v-list-item>
@@ -24,8 +24,12 @@ export default {
     return {
       items: [
         {
-          title: 'Whats New',
-          to: '/whats-new',
+          title: 'Home',
+          to: '/',
+        },
+        {
+          title: 'About Us',
+          to: '/About',
         },
         {
           title: 'Contact Us',
@@ -37,4 +41,22 @@ export default {
 }
 </script>
 
-<style></style>
+<style lang="scss">
+.header {
+  height: auto;
+}
+
+.v-application--wrap {
+  height: auto !important;
+  min-height: auto;
+  flex: none;
+  width: 100%;
+}
+
+.theme--light.v-sheet {
+  background-color: transparent !important;
+}
+.v-list {
+  padding: 0;
+}
+</style>
