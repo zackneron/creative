@@ -1,5 +1,12 @@
 <template>
-  <v-app-bar color="white" outline class="header">
+  <v-app-bar
+    fixed
+    color="white"
+    outline
+    class="header"
+    elevate-on-scroll
+    scroll-target="#scrolling-techniques-7"
+  >
     <nuxt-link to="/">
       <v-img
         :src="require('~/assets/logo.png')"
@@ -32,6 +39,10 @@ export default {
           to: '/About',
         },
         {
+          title: 'Services',
+          to: '/Services',
+        },
+        {
           title: 'Contact Us',
           to: '/Contact',
         },
@@ -53,9 +64,6 @@ export default {
   width: 100%;
 }
 
-.theme--light.v-sheet {
-  background-color: transparent !important;
-}
 .v-list {
   padding: 0;
 }
