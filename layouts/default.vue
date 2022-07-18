@@ -12,7 +12,7 @@
 
 <script>
 import HeaderComp from '@/components/Header-comp'
-import FooterComp from '@/components/FooterCom'
+import FooterComp from '@/components/Footer'
 export default {
   name: 'DefaultLayout',
   component: { HeaderComp, FooterComp },
