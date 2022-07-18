@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <HeaderComp />
-    <v-main>
+    <v-main id="scrolling-techniques-7">
       <Nuxt />
     </v-main>
     <Footer />
@@ -10,7 +10,7 @@
 
 <script>
 import HeaderComp from '@/components/Header-comp'
-import Footer from '@/components/FooterCom'
+import Footer from '@/components/Footer'
 export default {
   name: 'MainPageLayout',
   component: { HeaderComp, Footer },
@@ -19,4 +19,10 @@ export default {
   },
 }
 </script>
-<style scoped></style>
+<style>
+@media (min-width: 1264px) {
+  .lg-container {
+    max-width: 1400px;
+  }
+}
+</style>
