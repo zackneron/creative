@@ -243,12 +243,18 @@ export default {
   }
 }
 .service {
-  background: rgb(115, 115, 115);
+  background: rgba(50, 50, 50, 0.7);
   padding: 100px 50px;
   &__item {
     background-color: #fff;
     border-radius: 5px;
     padding: 20px;
+    transition: all 0.3s linear;
+    position: relative;
+    cursor: pointer;
+    &:hover {
+      box-shadow: 0 0 16px #3f4040;
+    }
   }
   &-thumb {
     margin: 55px auto 40px;
