@@ -25,11 +25,11 @@
                 software of measurable quality.
               </p>
               <p>
-                Full Stack offers bespoke software based on rigourous software
-                quality models. Whether web, mobile or desktop, our software
-                solutions are led by our belief in the power of data to both
-                describe and demonstrate software in-use. The software solutions
-                team measure and deliver on:
+                Katshi Way Design offers bespoke software based on rigourous
+                software quality models. Whether web, mobile or desktop, our
+                software solutions are led by our belief in the power of data to
+                both describe and demonstrate software in-use. The software
+                solutions team measure and deliver on:
               </p>
               <ul>
                 <li>The quality of software in-design [Planning]</li>
@@ -61,9 +61,9 @@
               </p>
               <p>
                 How can you ensure that your system's architecture is of a high
-                quality? Let Full Stack provide our detailed levels of technical
-                and functional specification that we perform prior to the
-                commencement of our own projects with your problem set.
+                quality? Let Katshi Way Design provide our detailed levels of
+                technical and functional specification that we perform prior to
+                the commencement of our own projects with your problem set.
               </p>
               <p>
                 Whether an existing piece of software, or a new build, let Full
